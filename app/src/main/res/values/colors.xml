@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_background">#F4F7F6</color>
+    <color name="primary_green">#176D3B</color>
+    <color name="primary_green_dark">#0E4F2B</color>
+    <color name="accent_mint">#DDF6E8</color>
+    <color name="income_green">#17884B</color>
+    <color name="expense_red">#C7362F</color>
+    <color name="tool_blue">#276EF1</color>
+    <color name="tool_amber">#F4A62A</color>
+    <color name="ink">#17211B</color>
+    <color name="muted_ink">#68756D</color>
+    <color name="surface">#FFFFFFFF</color>
+</resources>

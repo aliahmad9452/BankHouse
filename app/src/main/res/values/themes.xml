@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BankHouse" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/primary_green</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.BankHouse.MaterialDialog</item>
+    </style>
+
+    <style name="Theme.BankHouse" parent="Base.Theme.BankHouse" />
+
+    <style name="ThemeOverlay.BankHouse.MaterialDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DialogButton.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DialogButton.Neutral</item>
+        <item name="buttonBarNeutralButtonStyle">@style/DialogButton.Neutral</item>
+    </style>
+
+    <style name="DialogButton.Positive" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/primary_green</item>
+    </style>
+
+    <style name="DialogButton.Neutral" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/muted_ink</item>
+    </style>
+</resources>
